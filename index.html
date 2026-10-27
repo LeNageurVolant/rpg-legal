@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - RPG Task Manager</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a;
+            color: #cbd5e1;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            background-color: #1e293b;
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+        h1, h2, h3 { color: #fbbf24; }
+        h1 { text-align: center; border-bottom: 2px solid #334155; padding-bottom: 10px; margin-bottom: 30px; }
+        ul { margin-bottom: 20px; }
+        li { margin-bottom: 10px; }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Politique de Confidentialité</h1>
+        <p><em>Dernière mise à jour : 27 Octobre 2026</em></p>
+
+        <p>Cette politique de confidentialité décrit la manière dont <strong>RPG Task Manager</strong> collecte, utilise et protège les données personnelles de ses utilisateurs. En utilisant l'application, vous acceptez les pratiques décrites dans ce document.</p>
+
+        <h2>1. Données collectées</h2>
+        <p>L'application collecte les informations strictement nécessaires à son fonctionnement :</p>
+        <ul>
+            <li><strong>Informations de compte Google :</strong> Lors de la connexion via l'authentification Google, l'application récupère votre adresse e-mail, votre nom d'affichage et un identifiant unique (UID) via Firebase.</li>
+            <li><strong>Données de progression :</strong> L'application sauvegarde vos données de jeu (niveau, XP, or, statistiques, état des quêtes et inventaire) sur les serveurs Firebase Firestore pour permettre la synchronisation cloud.</li>
+            <li><strong>Feedbacks utilisateur :</strong> Si vous utilisez le formulaire de contact intégré, le contenu de votre message, votre adresse e-mail et vos statistiques de jeu actives sont transmis via un Webhook Discord à des fins de support technique.</li>
+        </ul>
+
+        <h2>2. Utilisation des données</h2>
+        <p>Les données collectées sont utilisées exclusivement pour :</p>
+        <ul>
+            <li>Sauvegarder et synchroniser votre progression entre vos différents appareils.</li>
+            <li>Authentifier votre compte de manière sécurisée.</li>
+            <li>Améliorer le jeu en traitant vos retours et signalements de bugs.</li>
+        </ul>
+
+        <h2>3. Partage des informations</h2>
+        <p>Vos données ne sont ni vendues, ni louées, ni partagées à des fins publicitaires. Elles sont hébergées et traitées par des services tiers sécurisés requis pour l'infrastructure technique :</p>
+        <ul>
+            <li><strong>Google Cloud / Firebase :</strong> Hébergement de la base de données et gestion de l'authentification.</li>
+            <li><strong>Discord :</strong> Réception interne des messages de feedback envoyés depuis l'application.</li>
+        </ul>
+
+        <h2>4. Sécurité des données</h2>
+        <p>Les données de sauvegarde sont stockées sur les serveurs sécurisés de Firebase. L'application intègre également des contrôles de sécurité locaux, notamment la vérification de l'horloge système pour prévenir la triche.</p>
+
+        <h2>5. Droits des utilisateurs</h2>
+        <p>Vous conservez le contrôle total sur vos données. Vous pouvez à tout moment formater et effacer intégralement votre sauvegarde cloud ou locale directement depuis les paramètres de l'application. Pour demander la révocation de l'accès Google ou la suppression définitive du compte Firebase associé, vous pouvez contacter le développeur.</p>
+
+        <h2>6. Contact</h2>
+        <p>Pour toute question relative à la confidentialité de vos données ou pour exercer vos droits de suppression de compte, vous pouvez contacter le support à l'adresse suivante : <strong>support.rpgtaskmanager@gmail.com</strong>.</p>
+    </div>
+</body>
+</html>
